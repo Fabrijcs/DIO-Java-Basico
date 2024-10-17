@@ -23,8 +23,8 @@ public class ContaTerminal {
         saldo = Double.parseDouble(saldoString);
         
         // Exibição da mensagem de boas-vindas
-        System.out.println("Olá " + nomeCliente + ", obrigado por criar uma conta em nosso banco, sua agência é " + numeroAgencia + ", conta " + numeroAgencia
- + " e seu saldo " + saldo + " já está disponível para saque."); 
+        System.out.println("Ola " + nomeCliente + ", obrigado por criar uma conta em nosso banco, sua agencia eh " + numeroAgencia + ", conta " + numeroAgencia
+ + " e seu saldo " + saldo + " ja esta disponivel para saque."); 
         scanner.close();
     }
 }
